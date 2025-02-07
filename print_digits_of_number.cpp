@@ -6,12 +6,15 @@ using namespace std;
 int main(){
     int n;
     cin>>n;
+    int count=0;
     int last_digit;
     while(n!=0){
         last_digit=n%10;
         n=n/10;
         cout<<last_digit;
+        count+=1;
     }
-
+    cout<<endl;
+    cout<<count<<endl;
     
 }
