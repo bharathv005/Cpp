@@ -1,4 +1,4 @@
-//Print the digits present in given number
+//Print the reverse in given number
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -15,7 +15,9 @@ int main(){
 }
 
 
-
+//Print the digits present in given number
+//palindrome number
+//Print the reverse in given number
 
 
 // //int main(){

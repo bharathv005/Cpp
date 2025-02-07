@@ -20,3 +20,7 @@ int main(){
         cout<<x<<" "<<"is not a palindrome number"<<endl;
     }
 }
+
+//Print the digits present in given number
+//palindrome number
+//Print the reverse in given number

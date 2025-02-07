@@ -18,3 +18,7 @@ int main(){
     cout<<count<<endl;
     
 }
+
+//Print the digits present in given number
+//palindrome number
+//Print the reverse in given number
