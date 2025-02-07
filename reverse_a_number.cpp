@@ -4,11 +4,12 @@
 using namespace std;
 int last_digit;
 int x,n;
+cin>>n;
 int main(){
     while(n!=0){
         last_digit=n%10;
-    x=x*10+last_digit;
-    n=n/10;
+        x=x*10+last_digit;
+        n=n/10;
     }
     cout<<x<<endl;
 }
