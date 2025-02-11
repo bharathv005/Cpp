@@ -26,6 +26,9 @@ int main(){
     }
 }
 
+//prime number
+//factors
+
 // int main(){
 //     int n;
 //     cin>>n;
