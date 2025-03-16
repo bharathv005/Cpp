@@ -11,6 +11,9 @@ public:
 void print(Car c){
     cout<<c.name<<" "<<c.price<<" "<<c.seats<<" "<<c.type<<endl;
 }
+void change(Car& c){
+    c.name="Audi";
+}
 int main(){
     Car c1;
     c1.name="GLS mercedes";
@@ -24,5 +27,7 @@ int main(){
     c2.seats=5;
     c2.type="SUV";
 
+    print(c1);
+    change(c1);
     print(c1);
 }
