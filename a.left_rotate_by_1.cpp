@@ -17,5 +17,5 @@ int main() {
     left_rotate_by_1_place(arr, n);
     for (int i = 0; i < n; i++)
         cout << arr[i] << " ";
-    return 0;
+    return 0; 
 }
