@@ -11,7 +11,7 @@ int longestSubarrayWithSumK(int arr[], int n, int k)
         {
             if(j-i+1>max)
             {
-                max=j-i+1;
+                max=j-i+1; 
             }
             j++;
             if(j<n)
