@@ -10,6 +10,7 @@ bool is_Sorted(int a[],int n)
     }
     return true;
 }
+
 int main()
 {
     int n;
