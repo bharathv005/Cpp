@@ -13,7 +13,7 @@ int main() {
     int arr[n];
     for (int i = 0; i < n; i++){
         cin >> arr[i];
-    }
+    } 
     left_rotate_by_1_place(arr, n);
     for (int i = 0; i < n; i++)
         cout << arr[i] << " ";
