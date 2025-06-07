@@ -6,6 +6,7 @@ public:
     int rno;
     float gpa;
 
+
     Student(string s,int r,float g){
         name=s;
         rno=r;
